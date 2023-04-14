@@ -1,8 +1,8 @@
 body {
   font-family: sans-serif;
-  color: rgb(62, 60, 60);
+  color: rgb(61, 64, 62);
   display: flex;
-  background-color: rgb(236, 249, 241);
+  background-color: rgb(238, 247, 241);
 }
 
 #content {
@@ -14,17 +14,19 @@ body {
   font-family: "Reenie Beanie", cursive;
   font-size: 46px;
   width: 100vh;
+  margin-left: 500px;
 }
 
 .home-text {
   font-family: "Reenie Beanie", cursive;
   font-size: 28px;
+  margin-left: 540px;
 }
 
 button {
   border: none;
   padding: 30px 50px;
-  color: rgb(180, 180, 180);
+  color: rgb(123, 122, 122);
   font-size: 38px;
   margin: 0 10px;
   width: 54vh;
@@ -34,11 +36,12 @@ button {
 }
 
 button:hover {
-  background-color: rgb(203, 218, 202);
+  color: rgb(88, 88, 88);
+  background-color: rgb(209, 221, 208);
 }
 
 button:active {
-  background-color: rgb(182, 198, 180);
+  background-color: rgb(192, 207, 190);
 }
 
 img {
@@ -53,5 +56,9 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 32px;
+  font-size: 20px;
+}
+
+.map {
+  width: 600px;
 }
