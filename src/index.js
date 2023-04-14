@@ -1,7 +1,7 @@
+import "./style.css";
 import loadHomePage from "./home.js";
 import loadMenuPage from "./menu.js";
 import loadContactsPage from "./contacts.js";
-import "./style.css";
 
 const content = document.querySelector("#content");
 
