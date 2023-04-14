@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  color: rgb(62, 60, 60);
+  display: flex;
+  background-color: rgb(236, 249, 241);
+}
+
+#content {
+  font-family: "Bad Script", cursive;
+  font-size: 16px;
+}
+
+.home-header {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 46px;
+  width: 100vh;
+}
+
+.home-text {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 28px;
+}
+
+button {
+  border: none;
+  padding: 30px 50px;
+  color: rgb(180, 180, 180);
+  font-size: 38px;
+  margin: 0 10px;
+  width: 54vh;
+  background-color: rgb(227, 235, 226);
+  border-radius: 20px 0 20px 0;
+  font-family: "Reenie Beanie", cursive;
+}
+
+button:hover {
+  background-color: rgb(203, 218, 202);
+}
+
+button:active {
+  background-color: rgb(182, 198, 180);
+}
+
+img {
+  width: 200vh;
+}
+
+.menu-item {
+  border-bottom: 1px solid black;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
